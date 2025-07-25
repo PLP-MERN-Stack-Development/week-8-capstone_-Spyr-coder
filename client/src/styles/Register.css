@@ -1,0 +1,73 @@
+/* Register.css */
+
+.register-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 25px;
+  background: #f9f9ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #003f80;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0055aa;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container input {
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.register-container input:focus {
+  border-color: #0055aa;
+  outline: none;
+  box-shadow: 0 0 8px #a3c1ff;
+}
+
+.register-container button {
+  background-color: #0055aa;
+  color: white;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+  background-color: #003f80;
+}
+
+.register-container p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+.register-container p a {
+  color: #0055aa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-container p a:hover {
+  text-decoration: underline;
+}

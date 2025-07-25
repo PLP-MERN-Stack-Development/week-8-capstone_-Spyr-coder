@@ -1,0 +1,86 @@
+/* 🌟 General App Styles */
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fb; /* soft light background */
+  min-height: 100vh;
+  padding: 2rem;
+  color: #333;
+}
+
+/* 🌟 Logo Animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* 🌟 Header */
+.App-header {
+  background: linear-gradient(135deg, royalblue 0%, #003399 100%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 🌟 Links */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+/* 🌟 Keyframes for Logo Spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 🌟 Form Styles */
+form {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 51, 153, 0.1);
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #003399;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form button {
+  background: royalblue;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #003399;
+}
